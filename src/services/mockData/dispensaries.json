@@ -88,5 +88,131 @@
       "today": "10:00 AM - 9:00 PM"
     },
     "activeDeals": 2
+  },
+  {
+    "Id": 6,
+    "name": "Curaleaf Camden",
+    "location": "Camden, NJ",
+    "address": "2850 Mt. Ephraim Ave, Camden, NJ 08104",
+    "website": "https://curaleaf.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3
+  },
+  {
+    "Id": 7,
+    "name": "Green Thumb Industries - Paterson",
+    "location": "Paterson, NJ",
+    "address": "420 Market Street, Paterson, NJ 07501",
+    "website": "https://riselife.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2
+  },
+  {
+    "Id": 8,
+    "name": "RISE Dispensary",
+    "location": "Bloomfield, NJ",
+    "address": "1150 Broad Street, Bloomfield, NJ 07003",
+    "website": "https://riselife.com",
+    "hours": {
+      "monday": "9:00 AM - 9:00 PM",
+      "tuesday": "9:00 AM - 9:00 PM",
+      "wednesday": "9:00 AM - 9:00 PM",
+      "thursday": "9:00 AM - 9:00 PM",
+      "friday": "9:00 AM - 10:00 PM",
+      "saturday": "9:00 AM - 10:00 PM",
+      "sunday": "10:00 AM - 8:00 PM",
+      "today": "9:00 AM - 9:00 PM"
+    },
+    "activeDeals": 3
+  },
+  {
+    "Id": 9,
+    "name": "Zenleaf Elizabeth",
+    "location": "Elizabeth, NJ",
+    "address": "770 Newark Avenue, Elizabeth, NJ 07208",
+    "website": "https://zenleaf.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2
+  },
+  {
+    "Id": 10,
+    "name": "TerrAscend Maplewood",
+    "location": "Maplewood, NJ",
+    "address": "1889 Springfield Avenue, Maplewood, NJ 07040",
+    "website": "https://terrascend.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2
+  },
+  {
+    "Id": 11,
+    "name": "The Apothecarium Maplewood",
+    "location": "Maplewood, NJ",
+    "address": "1661 Springfield Avenue, Maplewood, NJ 07040",
+    "website": "https://apothecarium.com",
+    "hours": {
+      "monday": "9:00 AM - 9:00 PM",
+      "tuesday": "9:00 AM - 9:00 PM",
+      "wednesday": "9:00 AM - 9:00 PM",
+      "thursday": "9:00 AM - 9:00 PM",
+      "friday": "9:00 AM - 10:00 PM",
+      "saturday": "9:00 AM - 10:00 PM",
+      "sunday": "10:00 AM - 8:00 PM",
+      "today": "9:00 AM - 9:00 PM"
+    },
+    "activeDeals": 3
+  },
+  {
+    "Id": 12,
+    "name": "Acreage Wellness",
+    "location": "Egg Harbor Township, NJ",
+    "address": "6738 Black Horse Pike, Egg Harbor Township, NJ 08234",
+    "website": "https://acreagecannabis.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2
   }
 ]

@@ -3,6 +3,15 @@ import { dispensaryService } from "@/services/api/dispensaryService";
 
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 
+// Newsletter and loyalty program integration
+const newsletterSources = {
+  1: "Nirvana Weekly Newsletter",
+  2: "NAR Loyalty Rewards",
+  3: "Enlighten Daily Deals",
+  4: "Highway 90 Flash Alerts",
+  5: "Floro Loyalty Program"
+};
+
 export const dealService = {
   async getAll() {
     await delay(300);
@@ -10,7 +19,8 @@ export const dealService = {
     
     return dealsData.map(deal => ({
       ...deal,
-      dispensary: dispensaries.find(d => d.Id === deal.dispensaryId)
+      dispensary: dispensaries.find(d => d.Id === deal.dispensaryId),
+      loyaltySource: newsletterSources[deal.dispensaryId] || "Direct Update"
     }));
   },
 

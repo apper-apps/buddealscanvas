@@ -5,15 +5,18 @@ import Button from "@/components/atoms/Button";
 import ApperIcon from "@/components/ApperIcon";
 
 const DealCard = ({ deal, onViewDetails, onToggleFavorite, isFavorite }) => {
-  const getFreshnessInfo = (lastUpdated) => {
+const getFreshnessInfo = (lastUpdated) => {
     const now = new Date();
     const updated = new Date(lastUpdated);
     const hoursAgo = Math.floor((now - updated) / (1000 * 60 * 60));
     
-    if (hoursAgo < 6) {
-      return { text: "Fresh", class: "freshness-fresh" };
-    } else if (hoursAgo < 24) {
-      return { text: `${hoursAgo}h ago`, class: "freshness-moderate" };
+    if (hoursAgo < 2) {
+      return { text: "Live", class: "freshness-fresh" };
+    } else if (hoursAgo < 12) {
+      return { text: `${hoursAgo}h ago`, class: "freshness-fresh" };
+    } else if (hoursAgo < 48) {
+      const daysAgo = Math.floor(hoursAgo / 24);
+      return { text: daysAgo === 1 ? "Yesterday" : `${daysAgo}d ago`, class: "freshness-moderate" };
     } else {
       const daysAgo = Math.floor(hoursAgo / 24);
       return { text: `${daysAgo}d ago`, class: "freshness-stale" };

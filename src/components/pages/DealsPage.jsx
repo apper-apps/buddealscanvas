@@ -198,13 +198,13 @@ const DealsPage = ({ searchQuery }) => {
           <div className="flex-1 lg:pl-8">
             <div className="p-6">
               {/* Header */}
-              <div className="flex items-center justify-between mb-6">
+<div className="flex items-center justify-between mb-6">
                 <div>
                   <h1 className="text-3xl font-bold text-gray-900 mb-2">
-                    Cannabis Deals in New Jersey
+                    Latest Cannabis Deals in New Jersey - July 2025
                   </h1>
                   <p className="text-gray-600">
-                    Discover the best deals from local dispensaries
+                    Fresh deals updated daily from loyalty programs and newsletters
                     {filteredDeals.length > 0 && (
                       <span className="ml-2 font-medium">
                         ({filteredDeals.length} deals found)
