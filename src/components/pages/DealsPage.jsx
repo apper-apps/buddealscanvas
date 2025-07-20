@@ -295,6 +295,16 @@ useEffect(() => {
         return [...prev, dealId];
       }
     });
+};
+
+  const handleNewsletterSignup = (dispensary) => {
+    if (dispensary?.website) {
+      const newsletterUrl = `${dispensary.website}/newsletter`;
+      window.open(newsletterUrl, "_blank", "noopener,noreferrer");
+      toast.info(`Opening ${dispensary.name} newsletter signup`);
+    } else {
+      toast.info("Newsletter signup coming soon for this dispensary");
+    }
   };
 
   const handleVisitWebsite = (url) => {
@@ -388,7 +398,7 @@ useEffect(() => {
                 </div>
               </div>
 
-              {/* Deal Grid */}
+{/* Deal Grid */}
               <DealGrid
                 deals={filteredDeals}
                 loading={loading}
@@ -398,6 +408,7 @@ useEffect(() => {
                 onToggleFavorite={handleToggleFavorite}
                 favoriteDeals={favoriteDeals}
                 onClearFilters={clearAllFilters}
+                onNewsletterSignup={handleNewsletterSignup}
               />
             </div>
           </div>

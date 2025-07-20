@@ -12,7 +12,8 @@ const DealGrid = ({
   onViewDetails, 
   onToggleFavorite,
   favoriteDeals,
-  onClearFilters 
+  onClearFilters,
+  onNewsletterSignup
 }) => {
   if (loading) {
     return <Loading />;
@@ -35,13 +36,14 @@ const DealGrid = ({
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-      {deals.map((deal) => (
+{deals.map((deal) => (
         <DealCard
           key={deal.Id}
           deal={deal}
           onViewDetails={onViewDetails}
           onToggleFavorite={onToggleFavorite}
           isFavorite={favoriteDeals.includes(deal.Id)}
+          onNewsletterSignup={onNewsletterSignup}
         />
       ))}
     </div>

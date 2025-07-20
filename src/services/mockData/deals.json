@@ -1,9 +1,11 @@
 [
-  {
+{
     "Id": 1,
     "dispensaryId": 1,
     "title": "Summer Solstice: 35% Off Premium Flower",
+    "previewTitle": "Summer Solstice: Special Flower Discount",
     "description": "Celebrate the summer season with 35% off all premium flower strains including exclusive Purple Punch, Gelato, and White Widow. Newsletter exclusive deal!",
+    "previewDescription": "Celebrate the summer season with special pricing on premium flower strains. Newsletter subscribers get exclusive access to this deal.",
     "discountType": "percentage",
     "discountValue": 35,
     "productCategory": "flower",
@@ -11,9 +13,11 @@
     "validUntil": "2025-07-25T23:59:59Z",
     "terms": "Newsletter subscribers only. Valid for premium flower only. Cannot be combined with other offers.",
     "lastUpdated": "2025-07-20T08:15:00Z",
-    "sourceUrl": "https://nirvanadispensary.com/summer-deals"
+    "sourceUrl": "https://nirvanadispensary.com/summer-deals",
+    "isNewsletterExclusive": true,
+    "socialMediaSource": "Instagram @nirvanadispensary"
   },
-  {
+{
     "Id": 2,
     "dispensaryId": 2,
     "title": "Midsummer Munchies: BOGO Gummies",
@@ -25,7 +29,8 @@
     "validUntil": "2025-07-26T23:59:59Z",
     "terms": "Equal or lesser value free. Valid on gummy products only. Loyalty members get priority.",
     "lastUpdated": "2025-07-20T10:30:00Z",
-    "sourceUrl": "https://narcannabis.com/midsummer-special"
+    "sourceUrl": "https://narcannabis.com/midsummer-special",
+    "socialMediaSource": "Facebook - NAR Cannabis"
   },
   {
     "Id": 3,
@@ -42,6 +47,7 @@
     "sourceUrl": "https://enlightendispensary.com/flash-concentrate"
   },
   {
+{
     "Id": 4,
     "dispensaryId": 4,
     "title": "Weekend Warrior Special",
@@ -53,7 +59,8 @@
     "validUntil": "2025-07-21T23:59:59Z",
     "terms": "Valid Friday through Sunday. All product categories included. No minimum purchase.",
     "lastUpdated": "2025-07-20T09:00:00Z",
-    "sourceUrl": "https://highway90dispensary.com/weekend-special"
+    "sourceUrl": "https://highway90dispensary.com/weekend-special",
+    "socialMediaSource": "Instagram Stories @highway90nj"
   },
   {
     "Id": 5,
@@ -168,10 +175,13 @@
     "sourceUrl": "https://acreagecannabis.com/summer-sampler"
   },
   {
+{
     "Id": 13,
     "dispensaryId": 1,
     "title": "Nirvana Newsletter Exclusive: Midnight Madness",
+    "previewTitle": "Midnight Madness: Special Store-wide Event",
     "description": "Newsletter subscribers only! Midnight to 6 AM special - 40% off everything in store. Limited time flash promotion.",
+    "previewDescription": "Special midnight event with store-wide savings. Newsletter subscribers get exclusive access to this flash promotion.",
     "discountType": "percentage",
     "discountValue": 40,
     "productCategory": "flower",
@@ -179,7 +189,9 @@
     "validUntil": "2025-07-21T06:00:00Z",
     "terms": "Newsletter subscribers only. Valid midnight to 6 AM. All products included.",
     "lastUpdated": "2025-07-20T16:30:00Z",
-    "sourceUrl": "https://nirvanadispensary.com/newsletter-midnight"
+    "sourceUrl": "https://nirvanadispensary.com/newsletter-midnight",
+    "isNewsletterExclusive": true,
+    "socialMediaSource": "Instagram Stories @nirvanadispensary"
   },
   {
     "Id": 14,
@@ -196,10 +208,13 @@
     "sourceUrl": "https://narcannabis.com/refer-friend"
   },
   {
+{
     "Id": 15,
     "dispensaryId": 3,
     "title": "Enlighten Daily Newsletter: Power Hour",
+    "previewTitle": "Daily Power Hour: Limited Time Savings",
     "description": "Daily newsletter subscribers get 1 hour of 30% off everything! Check your email for today's power hour time.",
+    "previewDescription": "Daily limited-time savings event for newsletter subscribers. Check your email for exclusive timing and details.",
     "discountType": "percentage",
     "discountValue": 30,
     "productCategory": "flower",
@@ -207,6 +222,8 @@
     "validUntil": "2025-07-20T16:00:00Z",
     "terms": "Newsletter subscribers only. 1-hour window daily. Time varies - check email.",
     "lastUpdated": "2025-07-20T14:50:00Z",
-    "sourceUrl": "https://enlightendispensary.com/power-hour"
+    "sourceUrl": "https://enlightendispensary.com/power-hour",
+    "isNewsletterExclusive": true,
+    "socialMediaSource": "Twitter @enlightennj"
   }
 ]

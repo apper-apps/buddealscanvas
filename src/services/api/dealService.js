@@ -31,15 +31,34 @@ const newsletterSources = {
   24: "MPX Member Updates"
 };
 
+// Social media source tracking
+const socialMediaSources = {
+  1: "Instagram @nirvanadispensary",
+  2: "Facebook - NAR Cannabis",
+  3: "Twitter @enlightennj",
+  4: "Instagram Stories @highway90nj",
+  5: "Facebook - Floro Cannabis",
+  6: "Instagram @curaleafnj",
+  7: "LinkedIn - Rise Cannabis",
+  8: "Instagram @risenj",
+  9: "Facebook - Zenleaf NJ",
+  10: "Twitter @terrascendnj",
+  11: "Instagram @apothecariumnj",
+  12: "Facebook - Acreage Wellness",
+  13: "Instagram @columbiacarenj"
+};
+
 export const dealService = {
   async getAll() {
     await delay(300);
     const dispensaries = await dispensaryService.getAll();
     
-    return dealsData.map(deal => ({
+return dealsData.map(deal => ({
       ...deal,
       dispensary: dispensaries.find(d => d.Id === deal.dispensaryId),
-      loyaltySource: newsletterSources[deal.dispensaryId] || "Direct Update"
+      loyaltySource: newsletterSources[deal.dispensaryId] || "Direct Update",
+      socialMediaSource: deal.socialMediaSource || socialMediaSources[deal.dispensaryId],
+      isNewsletterExclusive: deal.isNewsletterExclusive || false
     }));
   },
 
