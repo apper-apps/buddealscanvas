@@ -126,13 +126,11 @@ const DealsPage = ({ searchQuery }) => {
     deals.forEach(deal => {
       // Count by dispensary
       counts.dispensaries[deal.dispensaryId] = (counts.dispensaries[deal.dispensaryId] || 0) + 1;
-      
-      // Count by category
+// Count by category
       const category = deal.productCategory.toLowerCase();
-      if (counts.categories.hasOwnProperty(category)) {
+      if (Object.prototype.hasOwnProperty.call(counts.categories, category)) {
         counts.categories[category]++;
       }
-      
       // Count by deal type
       const now = new Date();
       const validFrom = new Date(deal.validFrom);
