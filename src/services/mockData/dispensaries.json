@@ -1,0 +1,92 @@
+[
+  {
+    "Id": 1,
+    "name": "Nirvana Dispensary",
+    "location": "Mount Laurel, NJ",
+    "address": "123 Route 73 South, Mount Laurel, NJ 08054",
+    "website": "https://nirvanadispensary.com",
+    "hours": {
+      "monday": "9:00 AM - 9:00 PM",
+      "tuesday": "9:00 AM - 9:00 PM", 
+      "wednesday": "9:00 AM - 9:00 PM",
+      "thursday": "9:00 AM - 9:00 PM",
+      "friday": "9:00 AM - 10:00 PM",
+      "saturday": "9:00 AM - 10:00 PM",
+      "sunday": "10:00 AM - 8:00 PM",
+      "today": "9:00 AM - 9:00 PM"
+    },
+    "activeDeals": 4
+  },
+  {
+    "Id": 2,
+    "name": "NAR Cannabis",
+    "location": "Mount Laurel, NJ",
+    "address": "456 Lenola Road, Mount Laurel, NJ 08054",
+    "website": "https://narcannabis.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM", 
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3
+  },
+  {
+    "Id": 3,
+    "name": "Enlighten Dispensary",
+    "location": "Mount Laurel, NJ",
+    "address": "789 Fellowship Road, Mount Laurel, NJ 08054",
+    "website": "https://enlightendispensary.com",
+    "hours": {
+      "monday": "8:00 AM - 10:00 PM",
+      "tuesday": "8:00 AM - 10:00 PM",
+      "wednesday": "8:00 AM - 10:00 PM",
+      "thursday": "8:00 AM - 10:00 PM", 
+      "friday": "8:00 AM - 11:00 PM",
+      "saturday": "8:00 AM - 11:00 PM",
+      "sunday": "9:00 AM - 9:00 PM",
+      "today": "8:00 AM - 10:00 PM"
+    },
+    "activeDeals": 2
+  },
+  {
+    "Id": 4,
+    "name": "Highway 90 Dispensary",
+    "location": "Voorhees, NJ",
+    "address": "321 White Horse Pike, Voorhees, NJ 08043",
+    "website": "https://highway90dispensary.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2
+  },
+  {
+    "Id": 5,
+    "name": "Floro Recreational Cannabis Dispensary",
+    "location": "Maple Shade, NJ",
+    "address": "654 Route 38 East, Maple Shade, NJ 08052",
+    "website": "https://florocannabis.com",
+    "hours": {
+      "monday": "10:00 AM - 9:00 PM",
+      "tuesday": "10:00 AM - 9:00 PM",
+      "wednesday": "10:00 AM - 9:00 PM",
+      "thursday": "10:00 AM - 9:00 PM",
+      "friday": "10:00 AM - 10:00 PM",
+      "saturday": "10:00 AM - 10:00 PM",
+      "sunday": "11:00 AM - 8:00 PM",
+      "today": "10:00 AM - 9:00 PM"
+    },
+    "activeDeals": 2
+  }
+]

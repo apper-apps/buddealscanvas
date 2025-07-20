@@ -1,0 +1,92 @@
+@import 'react-toastify/dist/ReactToastify.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Toast overrides */
+.Toastify__toast-container {
+  font-family: Inter, system-ui, sans-serif;
+  font-size: 14px;
+}
+
+.Toastify__toast {
+  min-height: 48px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #4CAF50, #45a049);
+  color: white;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #F44336, #d32f2f);
+  color: white;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #2196F3, #1976d2);
+  color: white;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Inter, system-ui, sans-serif;
+    background-color: #FAFCFA;
+    color: #1f2937;
+    line-height: 1.6;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Plus Jakarta Sans", system-ui, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-secondary text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:brightness-110 hover:scale-[1.02] shadow-lg;
+  }
+  
+  .btn-secondary {
+    @apply bg-gradient-to-r from-accent/10 to-accent/20 text-accent border border-accent/30 px-6 py-3 rounded-lg font-medium transition-all duration-200 hover:bg-gradient-to-r hover:from-accent/20 hover:to-accent/30 hover:scale-[1.02];
+  }
+  
+  .card {
+    @apply bg-surface rounded-xl shadow-lg border border-gray-100 transition-all duration-200 hover:shadow-xl hover:scale-[1.02];
+  }
+  
+  .deal-badge {
+    @apply bg-gradient-to-br from-accent to-accent/80 text-white text-sm font-bold px-3 py-1 rounded-full shadow-md;
+  }
+  
+  .category-pill {
+    @apply bg-secondary/20 text-secondary px-3 py-1 rounded-full text-sm font-medium border border-secondary/30;
+  }
+  
+  .freshness-indicator {
+    @apply text-xs font-medium px-2 py-1 rounded-md;
+  }
+  
+  .freshness-fresh {
+    @apply bg-green-100 text-green-700;
+  }
+  
+  .freshness-moderate {
+    @apply bg-yellow-100 text-yellow-700;
+  }
+  
+  .freshness-stale {
+    @apply bg-red-100 text-red-700;
+  }
+}
