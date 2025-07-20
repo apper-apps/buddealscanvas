@@ -213,6 +213,274 @@
       "sunday": "11:00 AM - 7:00 PM",
       "today": "10:00 AM - 8:00 PM"
     },
-    "activeDeals": 2
+"activeDeals": 2,
+    "coordinates": {
+      "latitude": 39.3643,
+      "longitude": -74.4229
+    }
+  },
+  {
+    "Id": 13,
+    "name": "Columbia Care Burlington",
+    "location": "Burlington, NJ", 
+    "address": "2900 Route 130 North, Burlington, NJ 08016",
+    "website": "https://col-care.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM", 
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3,
+    "coordinates": {
+      "latitude": 40.0717,
+      "longitude": -74.8648
+    }
+  },
+  {
+    "Id": 14,
+    "name": "Harmony Dispensary",
+    "location": "Secaucus, NJ",
+    "address": "1 Harmon Plaza, Secaucus, NJ 07094", 
+    "website": "https://harmonydispensary.org",
+    "hours": {
+      "monday": "10:00 AM - 7:00 PM",
+      "tuesday": "10:00 AM - 7:00 PM",
+      "wednesday": "10:00 AM - 7:00 PM",
+      "thursday": "10:00 AM - 7:00 PM",
+      "friday": "10:00 AM - 8:00 PM",
+      "saturday": "10:00 AM - 8:00 PM",
+      "sunday": "11:00 AM - 6:00 PM",
+      "today": "10:00 AM - 7:00 PM"
+    },
+    "activeDeals": 2,
+    "coordinates": {
+      "latitude": 40.7895,
+      "longitude": -74.0565
+    }
+  },
+  {
+    "Id": 15,
+    "name": "Breakwater Treatment & Wellness",
+    "location": "Cranbury, NJ",
+    "address": "2 Dartmouth Drive, Cranbury, NJ 08512",
+    "website": "https://breakwaterwellness.com", 
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3,
+    "coordinates": {
+      "latitude": 40.3115,
+      "longitude": -74.5157
+    }
+  },
+  {
+    "Id": 16,
+    "name": "Garden State Green",
+    "location": "Woodbridge, NJ",
+    "address": "540 Rahway Avenue, Woodbridge, NJ 07095",
+    "website": "https://gardenstategreen.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM", 
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2,
+    "coordinates": {
+      "latitude": 40.5576,
+      "longitude": -74.2840
+    }
+  },
+  {
+    "Id": 17,
+    "name": "Ascend Wellness",
+    "location": "Montclair, NJ",
+    "address": "625 Bloomfield Avenue, Montclair, NJ 07042",
+    "website": "https://ascendwellness.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM", 
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3,
+    "coordinates": {
+      "latitude": 40.8176,
+      "longitude": -74.2090
+    }
+  },
+  {
+    "Id": 18,
+    "name": "Verano Dispensary",
+    "location": "Bordentown, NJ",
+    "address": "1085 US Route 206, Bordentown, NJ 08505",
+    "website": "https://verano.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2,
+    "coordinates": {
+      "latitude": 40.1460,
+      "longitude": -74.7154
+    }
+  },
+  {
+    "Id": 19,
+    "name": "RISE Ocean Township",
+    "location": "Ocean Township, NJ",
+    "address": "1806 Corlies Avenue, Ocean Township, NJ 07712",
+    "website": "https://riselife.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3,
+    "coordinates": {
+      "latitude": 40.2537,
+      "longitude": -74.0293
+    }
+  },
+  {
+    "Id": 20,
+    "name": "Ayr Cannabis Dispensary",
+    "location": "Eatontown, NJ", 
+    "address": "231 Route 35 South, Eatontown, NJ 07724",
+    "website": "https://ayrwellness.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2,
+    "coordinates": {
+      "latitude": 40.2954,
+      "longitude": -74.0565
+    }
+  },
+  {
+    "Id": 21,
+    "name": "The Botanist Atlantic City",
+    "location": "Atlantic City, NJ",
+    "address": "405 N Albany Avenue, Atlantic City, NJ 08401",
+    "website": "https://thebotanist.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3,
+    "coordinates": {
+      "latitude": 39.3643,
+      "longitude": -74.4229
+    }
+  },
+  {
+    "Id": 22,
+    "name": "Zen Leaf Neptune", 
+    "location": "Neptune, NJ",
+    "address": "3681 Route 66, Neptune, NJ 07753",
+    "website": "https://zenleaf.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM", 
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2,
+    "coordinates": {
+      "latitude": 40.2115,
+      "longitude": -74.0376
+    }
+  },
+  {
+    "Id": 23,
+    "name": "Curaleaf Bellmawr",
+    "location": "Bellmawr, NJ",
+    "address": "542 Mantua Pike, Bellmawr, NJ 08031",
+    "website": "https://curaleaf.com",
+    "hours": {
+      "monday": "9:00 AM - 8:00 PM",
+      "tuesday": "9:00 AM - 8:00 PM",
+      "wednesday": "9:00 AM - 8:00 PM",
+      "thursday": "9:00 AM - 8:00 PM",
+      "friday": "9:00 AM - 9:00 PM",
+      "saturday": "9:00 AM - 9:00 PM",
+      "sunday": "10:00 AM - 7:00 PM",
+      "today": "9:00 AM - 8:00 PM"
+    },
+    "activeDeals": 3,
+    "coordinates": {
+      "latitude": 39.8673,
+      "longitude": -75.0951
+    }
+  },
+  {
+    "Id": 24,
+    "name": "MPX New Jersey",
+    "location": "Galloway, NJ",
+    "address": "819 White Horse Pike, Galloway, NJ 08205",
+    "website": "https://mpxnj.com",
+    "hours": {
+      "monday": "10:00 AM - 8:00 PM",
+      "tuesday": "10:00 AM - 8:00 PM",
+      "wednesday": "10:00 AM - 8:00 PM",
+      "thursday": "10:00 AM - 8:00 PM",
+      "friday": "10:00 AM - 9:00 PM",
+      "saturday": "10:00 AM - 9:00 PM",
+      "sunday": "11:00 AM - 7:00 PM",
+      "today": "10:00 AM - 8:00 PM"
+    },
+    "activeDeals": 2,
+    "coordinates": {
+      "latitude": 39.4893,
+      "longitude": -74.4771
+    }
   }
 ]

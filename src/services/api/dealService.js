@@ -6,10 +6,29 @@ const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
 // Newsletter and loyalty program integration
 const newsletterSources = {
   1: "Nirvana Weekly Newsletter",
-  2: "NAR Loyalty Rewards",
+  2: "NAR Loyalty Rewards", 
   3: "Enlighten Daily Deals",
   4: "Highway 90 Flash Alerts",
-  5: "Floro Loyalty Program"
+  5: "Floro Loyalty Program",
+  6: "Curaleaf VIP Program",
+  7: "Rise Rewards Newsletter",
+  8: "Rise Loyalty Updates",
+  9: "Zenleaf Member Deals",
+  10: "TerrAscend Insider",
+  11: "Apothecarium Rewards",
+  12: "Acreage Wellness Club",
+  13: "Columbia Care Plus",
+  14: "Harmony Premium Alerts",
+  15: "Breakwater VIP Updates",
+  16: "Garden State Green Weekly",
+  17: "Ascend Member Perks",
+  18: "Verano Loyalty Rewards",
+  19: "RISE Express Deals",
+  20: "Ayr Cannabis Club",
+  21: "The Botanist VIP",
+  22: "Zen Leaf Premium",
+  23: "Curaleaf Express",
+  24: "MPX Member Updates"
 };
 
 export const dealService = {
